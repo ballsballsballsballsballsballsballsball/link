@@ -6,9 +6,9 @@ COPY pages ./pages
 COPY public ./public
 COPY styles ./styles
 COPY components ./components
-RUN yarn install --frozen-lockfile --check-files --network-timeout 600000
-RUN yarn build --noninteractive
-RUN yarn install --frozen-lockfile --check-files --production --modules-folder node_modules_prod --network-timeout 600000
+RUN npm install --frozen-lockfile --check-files --network-timeout 600000
+RUN npm run build --noninteractive
+RUN npm install --frozen-lockfile --check-files --production --modules-folder node_modules_prod --network-timeout 600000
 
 FROM node:16.13.1-alpine
 WORKDIR /usr/src/app
