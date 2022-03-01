@@ -65,12 +65,6 @@ export default function Home() {
               color={"#101010"}
           />
           <Button
-              text={"Bin"}
-              href={"https://bin.ren.st"}
-              color={"#ED2756"}
-              Logo={Link}
-          />
-          <Button
             text={"GitHub"}
             href={"https://github.com/ballsballsballsballsballsballsballsball"}
             Logo={GitHub}
