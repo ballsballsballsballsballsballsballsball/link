@@ -6,3 +6,8 @@ hi
 - Fork
 - Edit buttons
 - Deploy to vercel
+
+
+# todo
+- [ ] Clean styles
+- [ ] Actual documentation 
